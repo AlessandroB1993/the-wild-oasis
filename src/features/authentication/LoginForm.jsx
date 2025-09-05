@@ -56,6 +56,10 @@ function LoginForm() {
           {!isLoading ? "Login" : <SpinnerMini />}
         </Button>
       </FormRowVertical>
+      <p>
+        Credentials:
+        <br /> me@example.com <br /> Password: 12341234
+      </p>
     </Form>
   );
 }

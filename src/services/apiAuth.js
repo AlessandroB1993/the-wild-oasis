@@ -15,8 +15,6 @@ export async function signup({ fullName, email, password }) {
     },
   });
 
-  console.log(data);
-
   // If there was a previously authenticated user, restore their session
   // This action should be placed right after signUp, otherwise the authError will stop the restoring
   if (savedSessionData)
